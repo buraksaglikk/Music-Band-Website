@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Metal+Mania&family=Space+Grotesk:wght@300&display=swap');
+
+@font-face {
+    font-family: "Helvetica Neue Regular";
+    src: url("fonts/Helvetica\ Neue\ Regular.otf") format("otf");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    box-sizing: border-box;
+    font-family: 'Space Grotesk';
+    color: #aaa
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    font-size: 1em;
+}
+
+.nav ul {
+    margin: 0;
+}
+
+.nav li{
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    padding: .5em;
+    color:rgb(200, 100, 100);
+    text-decoration: none;
+}
+
+.main-nav {
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: lighter;
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+}
+
+.nav a:hover {
+    background-color: rgba(100, 100, 100, 0.3);
+}
+
+.main-header {
+    background-color: rgba(0, 0, 0, .6);
+    background-image: url("images/Bad Omens About.jpg");
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-bottom: 50px;
+    background-position: top;
+}
+
+.band-name {
+    text-align: center;
+    margin: 0;
+    font-size: 3em;
+    font-family: "Helvetica Neue Regular";
+    font-weight: normal;
+    color: rgb(240, 120, 120);
+}
+
+.band-name-large {
+    font-size: 10em;
+}
+
+.content-section {
+    margin: 1em;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 1.5em;
+}
+
+.section-header {
+    font-family: "Metal Mania";
+    font-weight: normal;
+    color: #ccc;
+    text-align: center;
+    font-size: 2em;
+}
+
+.about-band-image {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-right: 3em;
+}
+
+.main-footer {
+    background-color: rgba(100, 100, 100, 0.3);
+    color: white;
+    padding: .25em 0;
+}
+
+.main-footer-container {
+    display: flex;
+}
+
+.main-footer-container ul {
+    flex-grow: 1;
+    text-align: end;
+}
+
+.footer-nav li {
+    padding: 0 .3em;
+}
+
+.band-name-small {
+    margin: auto;
+}
+
+.footer-nav img {
+    width: 25px;
+    height: 25px;
+}
